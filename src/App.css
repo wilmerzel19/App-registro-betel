@@ -1,0 +1,47 @@
+.agotado {
+    background-color: yellow;
+  }
+  
+  .inventario {
+    background-color: green;
+  }
+  
+  .danado {
+    background-color: red;
+  }
+  
+
+  
+  /* CustomTable.css */
+
+.table-responsive {
+  max-height: 60vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #3f7dbe; /* Color del encabezado */
+  color: #fff;
+}
+
+.table thead th {
+  text-align: center;
+  font-weight: bold;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table tbody td {
+  text-align: center;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
